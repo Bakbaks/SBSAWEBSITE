@@ -1,0 +1,7 @@
+---
+import DesignPage from '../components/DesignPage.astro';
+import { prepareDesignPage } from '../lib/prepareDesignPage';
+import source from '../content/Privacy-Policy.dc.html?raw';
+const content = prepareDesignPage(source);
+---
+<DesignPage title="Privacy Policy | South Bay STEM Association" content={content} />

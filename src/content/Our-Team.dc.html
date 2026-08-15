@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/tokens/effects.css">
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/styles.css">
+  <script src="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/_ds_bundle.js"></script>
+  <script src="./image-slot.js"></script>
+  <style>
+        a { color: var(--color-link); }
+    a:hover { color: var(--color-link-hover); text-decoration: underline; }
+    @keyframes sbsaFadeUp { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+    .sbsa-reveal { opacity: 0; animation: sbsaFadeUp 0.8s ease-out forwards; animation-timeline: view(); animation-range: entry 0% cover 30%; }
+    .sbsa-fade-in { opacity: 0; animation: sbsaFadeUp 0.9s ease-out forwards; }
+  </style>
+</helmet>
+
+<div style="font-family: var(--font-body); background: var(--color-bg);">
+
+<div style="background: var(--color-bg); padding: 22px 40px; display: flex; align-items: center; justify-content: center; gap: clamp(24px, 8vw, 140px); flex-wrap: nowrap;">
+  <a href="./Donate.dc.html" style="width: 210px; height: 44px; display: flex; align-items: center; justify-content: center; text-align: center; background: var(--color-accent); color: var(--color-brand-strong); font-family: var(--font-display); font-weight: 700; font-size: 15px; border-radius: 0; text-decoration: none;">Donation</a>
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+    <a href="./Homepage.dc.html" style="font-family: var(--font-display); font-weight: 800; font-size: 20px; letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--color-brand-strong); text-decoration: none; white-space: nowrap;">South Bay STEM Association</a>
+  </div>
+  <a href="./Contact.dc.html" style="width: 210px; height: 44px; display: flex; align-items: center; justify-content: center; text-align: center; background: var(--color-surface); color: var(--color-brand); border: 1.5px solid var(--color-border-strong); font-family: var(--font-display); font-weight: 700; font-size: 15px; border-radius: 0; text-decoration: none;">Contact</a>
+</div>
+
+<div style="position: sticky; top: 0; z-index: 40; background: var(--color-brand-strong);">
+  <nav style="max-width: var(--container-max); margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: center; gap: 32px; height: 56px; flex-wrap: nowrap;">
+    <a href="./Homepage.dc.html#top" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">Home</a>
+    <a href="./Programs.dc.html" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">Programs</a>
+    <a href="./About.dc.html" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">About Us</a>
+    <a href="./News.dc.html" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">News</a>
+    <a href="./Our-Team.dc.html" style="color: #fff; font-weight: 600; font-size: 15px; text-decoration: none;">Our Team</a>
+    <a href="./Volunteer.dc.html" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">Volunteer</a>
+  </nav>
+</div>
+
+<section style="padding: 56px 32px 96px; max-width: var(--container-max); margin: 0 auto;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px;">
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/kyra-tang.jpg" alt="Kyra Tang" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Kyra Tang</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Co-Founder &amp; CEO</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi! My name is Kyra Tang and I am a junior at Palos Verdes Peninsula High School. I founded South Bay STEM so I could share these amazing STEM opportunities and contests that you can't find in a normal school setting. I think the best part of STEM is the capacity for turning inventions into reality.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/charles-lu.jpg" alt="Charles Lu" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Charles Lu</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Co-Founder &amp; COO</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hello! I am Charles Lu and I am a junior in Palos Verdes Peninsula High School. I co-founded South Bay STEM Association because I want to motivate different students into different STEM-related fields. I think the best part of STEM is that you can use your creativity and different strengths to complete a challenge. No one is good at everything, but using everyone's strength, it is rewarding to finish a challenge.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/owen-yeh.jpg" alt="Owen Yeh" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Owen Yeh</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Vice President</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">My name is Owen Yeh and I am a junior at Palos Verdes Peninsula High. I joined South Bay STEM as I have always been interested in building and engineering ever since I was young. I think the best part of stem is the sense of glory and accomplishment you feel when you solve a problem and finish a build.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/allen-xie.jpg" alt="Allen Xie" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Allen Xie</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Vice President</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">I'm Allen Xie, a junior at Palos Verdes Peninsula High School. I joined South Bay STEM association because I wanted to be involved in mentoring and helping other people with the same interests as me. I hope that not only will I help others improve their skills, but also sharpen my own skills as well. My favorite part of STEM is engineering. I love going through the unique process of brainstorming, designing, creating, and testing to produce a working product.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/ariel-chen.jpg" alt="Ariel Chen" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Ariel Chen</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Director of Fundraising</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi, I'm Ariel. I am a junior attending Palos Verdes High School and am one of the founders of South Bay STEM. One of the main reasons for creating this organization is to introduce middle-schoolers to a variety of STEM resources that allow them to explore their interests/passions, as well as the multitude of fields present in science. One of the best parts of STEM is the problem solving aspect, as STEM contains a diversity of unique solutions and ideas invoked from creativity and curiosity.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/matin-gheysar.png" alt="Matin Gheysar" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Matin Gheysar</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Director of Curriculum</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi! I'm Matin, a junior at Palos Verdes Peninsula High School and the Director of Curriculum for South Bay STEM. I'm passionate about making STEM education exciting and accessible, and I love designing lessons that help students dive into new ideas. I especially enjoy biology and have participated in the Regeneron Science Fair, where I explored scientific research in depth and applied STEM to real-world questions. I believe STEM is all about thinking creatively and critically to solve meaningful problems.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/nathan-soeng.jpg" alt="Nathan Soeng" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Nathan Soeng</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Director of Curriculum</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi, my name is Nathan Soeng. I am a current junior at Palos Verdes Peninsula High School, and the Director of Curriculum at SBSA. I love STEM as it combines many different types of topics and combines them to create something or solve a problem.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/adrian-vilca.jpeg" alt="Adrian Vilca" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Adrian Vilca</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Treasurer &amp; Director of Volunteering</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">I'm Adrian and I'm the Director of Volunteering! I joined South Bay STEM Association to participate in enhancing STEM activities for students in elementary and middle school. I have also been an avid birder for five years!</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/sarah-varghese.jpg" alt="Sarah Varghese" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Sarah Varghese</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Volunteer</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hello! My name is Sarah Varghese, and I am a sophomore at Palos Verdes Peninsula High School. I will be volunteering with the South Bay STEM Association, and I am excited to work with all of you this year! When you combine science, technology, engineering, and mathematics, you can create something that is truly life-changing. STEM is extremely prevalent in our day and age, and the South Bay STEM Association has so much to offer. I hope to see you at a workshop or program soon!</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/daniel-chun.jpg" alt="Daniel Chun" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Daniel Chun</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Volunteer</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi, I'm Daniel Chun, currently a sophomore at Palos Verdes High School. I am a volunteer at South Bay Math Circle, with the intention to help shape the minds of younger students learn to love the joy of stem. The reason I enjoy STEM is because it isn't just regular math or science, it's the center for many new opportunities to help other people through the use of coding, mechanics, design, and electronics. Although it takes time, I truly believe it is worth it to make something new.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/arnav-garg.jpg" alt="Arnav Garg" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Arnav Garg</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Volunteer</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hello, my name is Arnav Garg, and I'm a sophomore at Palos Verdes Peninsula High School. My own journey in STEM began with math competitions, which opened my eyes to a world of problem-solving beyond the classroom and eventually led me to explore coding and other STEM topics. I joined the South Bay STEM Association to help other students discover that same passion and find their own unique paths. For me, the most powerful part of STEM is being able to visualize and see abstract concepts whether in math, code, or science be applied and used in the real world.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/alina-shah.jpg" alt="Alina Shah" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Alina Shah</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Volunteer</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi! My name is Alina Shah, and I am a 7th grader at Palos Verdes Intermediate School. I am thrilled to be volunteering with the South Bay STEM Association this year. I joined because I believe STEM is for everyone—it connects to every passion and career dream. To me, STEM is more than just science and technology; it's a way to empower people to imagine, create, and achieve the impossible. With STEM, every dream has a pathway forward, and I'm excited to help others discover that spark within themselves!</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/chloe-wang.jpeg" alt="Chloe Wang" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Chloe Wang</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Volunteer</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi! My name is Chloe Wang and I'm a sophomore at Palos Verdes Peninsula high school. I love STEM because it helps me understand how the world works through science and logic. I joined the South Bay STEM Association to apply my STEM knowledge to help others while connecting with people who share the same interest. I'm excited to work with this team to make STEM more fun and contribute to our community!</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/lorraine-cheng.jpeg" alt="Lorraine Cheng" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Lorraine Cheng</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Volunteer</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi, I'm Lorraine Cheng! I'm a sophomore in Palos Verdes peninsula high school and I'm applying to join the South Bay STEM Association as a volunteer. I love how stem can turn a creative idea into a real-world tool. I'm applying because I want to connect with other tech-loving students in the South Bay and help make STEM even more exciting for our community!</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/lucas-yang.png" alt="Lucas Yang" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Lucas Yang</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Volunteer</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi! I am Lucas Yang, a freshman at Palos Verdes Peninsula High School part of the school science research program. I am grateful that STEM has allowed me to learn things that cannot be found in a textbook and explore new scientific fields. As a volunteer at SBSA, I hope I can help support elementary and middle schoolers who are interested in STEM as they pursue their passions and opportunities.</p>
+    </div>
+    <div class="sbsa-reveal" style="display: flex; flex-direction: column; gap: 14px; background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 24px;">
+      <div style="display: flex; gap: 16px; align-items: center;"><div style="width: 84px; height: 84px; border-radius: 50%; overflow: hidden; flex-shrink: 0;"><img src="./assets/team/aidan-wong.png" alt="Aidan Wong" style="width: 100%; height: 100%; object-fit: cover;"></div><div><div style="font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--color-text);">Aidan Wong</div><div style="font-size: 13px; font-weight: 600; color: var(--color-brand);">Volunteer</div></div></div>
+      <p style="margin: 0; font-size: 14px; line-height: var(--leading-relaxed); color: var(--color-text-muted);">Hi, I'm Aidan Wong, an incoming freshman at the California Academy of Mathematics and Science. I will be volunteering with the South Bay STEM Association and look forward to working with all of you. I had so much fun participating in robotics competitions over the past 2 years, including Zero Robotics and First Lego League. I joined this organization because I want to help others develop their love for STEM! My favorite part of STEM is the problem solving aspects, and I really enjoy seeing everything work the right way after troubleshooting a complicated problem.</p>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 56px;">
+    <a href="./Homepage.dc.html" style="font-weight: 600; color: var(--color-link); font-size: 15px;">‹ Back to Home</a>
+  </div>
+</section>
+
+<footer style="background: var(--color-brand-strong); color: #fff; padding: 32px 32px 52px; font-family: var(--font-body); text-align: center;">
+  <div style="max-width: var(--container-max); margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 22px;">
+    <div style="font-family: var(--font-display); font-weight: 800; font-size: 22px; letter-spacing: var(--tracking-wide); text-transform: uppercase; color: #fff;">South Bay STEM Association</div>
+    <p style="font-size: 14px; color: var(--green-100); max-width: 420px; margin: 0;">A 501(c)(3) nonprofit bringing free, hands-on STEM education to students in the South Bay.</p>
+    <div style="display: flex; gap: 48px; flex-wrap: wrap; justify-content: center;">
+      <a href="./Programs.dc.html#stem-workshops" style="color: var(--green-200); font-size: 14px;">STEM Workshops</a>
+      <a href="./Programs.dc.html#zero-robotics" style="color: var(--green-200); font-size: 14px;">Zero Robotics</a>
+      <a href="./News.dc.html" style="color: var(--green-200); font-size: 14px;">News</a>
+      <a href="./Our-Team.dc.html" style="color: var(--green-200); font-size: 14px;">Our Team</a>
+      <a href="./Volunteer.dc.html" style="color: var(--green-200); font-size: 14px;">Volunteer</a>
+      <a href="./Donate.dc.html" style="color: var(--green-200); font-size: 14px;">Donate</a>
+      <a href="./About.dc.html" style="color: var(--green-200); font-size: 14px;">About</a>
+      <a href="./Contact.dc.html" style="color: var(--green-200); font-size: 14px;">Contact</a>
+    </div>
+    <div style="width: 100%; margin-top: 12px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.15); font-size: 13px; color: var(--green-200); display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+      <span>© 2026 South Bay STEM Association · info@southbaystem.org</span>
+      <span>·</span>
+      <a href="./Privacy-Policy.dc.html" style="color: var(--green-200);">Privacy Policy</a>
+      <span>·</span>
+      <a href="./Terms-of-Use.dc.html" style="color: var(--green-200);">Terms of Use</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+</x-dc>
+</body>
+</html>

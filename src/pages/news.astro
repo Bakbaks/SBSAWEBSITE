@@ -1,0 +1,7 @@
+---
+import DesignPage from '../components/DesignPage.astro';
+import { prepareDesignPage } from '../lib/prepareDesignPage';
+import source from '../content/News.dc.html?raw';
+const content = prepareDesignPage(source);
+---
+<DesignPage title="News | South Bay STEM Association" content={content} />

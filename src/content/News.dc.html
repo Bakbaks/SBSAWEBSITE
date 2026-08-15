@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/tokens/effects.css">
+  <link rel="stylesheet" href="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/styles.css">
+  <script src="_ds/south-bay-stem-association-design-system-de29328c-faa5-4937-834f-8b9eed70b935/_ds_bundle.js"></script>
+  <style>
+        a { color: var(--color-link); }
+    a:hover { color: var(--color-link-hover); text-decoration: underline; }
+    @keyframes sbsaFadeUp { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+    .sbsa-reveal { opacity: 0; animation: sbsaFadeUp 0.8s ease-out forwards; animation-timeline: view(); animation-range: entry 0% cover 30%; }
+    .sbsa-fade-in { opacity: 0; animation: sbsaFadeUp 0.9s ease-out forwards; }
+    .sbsa-fade-in-d1 { animation-delay: 0.12s; }
+  </style>
+</helmet>
+
+<div style="font-family: var(--font-body); background: var(--color-bg);">
+
+<div style="background: var(--color-bg); padding: 22px 40px; display: flex; align-items: center; justify-content: center; gap: clamp(24px, 8vw, 140px); flex-wrap: nowrap;">
+  <a href="./Donate.dc.html" style="width: 210px; height: 44px; display: flex; align-items: center; justify-content: center; text-align: center; background: var(--color-accent); color: var(--color-brand-strong); font-family: var(--font-display); font-weight: 700; font-size: 15px; border-radius: 0; text-decoration: none;">Donation</a>
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+    <a href="./Homepage.dc.html" style="font-family: var(--font-display); font-weight: 800; font-size: 20px; letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--color-brand-strong); text-decoration: none; white-space: nowrap;">South Bay STEM Association</a>
+  </div>
+  <a href="./Contact.dc.html" style="width: 210px; height: 44px; display: flex; align-items: center; justify-content: center; text-align: center; background: var(--color-surface); color: var(--color-brand); border: 1.5px solid var(--color-border-strong); font-family: var(--font-display); font-weight: 700; font-size: 15px; border-radius: 0; text-decoration: none;">Contact</a>
+</div>
+
+<div style="position: sticky; top: 0; z-index: 40; background: var(--color-brand-strong);">
+  <nav style="max-width: var(--container-max); margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: center; gap: 32px; height: 56px; flex-wrap: nowrap;">
+    <a href="./Homepage.dc.html#top" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">Home</a>
+    <a href="./Programs.dc.html" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">Programs</a>
+    <a href="./About.dc.html" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">About Us</a>
+    <a href="./News.dc.html" style="color: #fff; font-weight: 600; font-size: 15px; text-decoration: none;">News</a>
+    <a href="./Our-Team.dc.html" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">Our Team</a>
+    <a href="./Volunteer.dc.html" style="color: var(--green-100); font-weight: 600; font-size: 15px; text-decoration: none;">Volunteer</a>
+  </nav>
+</div>
+
+<section style="background: var(--color-brand-strong); padding: 64px 32px; color: #fff; border-top: 6px solid var(--color-accent); border-bottom: 6px solid var(--color-accent);">
+  <div class="sbsa-fade-in" style="max-width: var(--container-max); margin: 0 auto; display: flex; flex-direction: column; gap: 16px; align-items: center; text-align: center;">
+    <div style="font-family: var(--font-display); font-weight: 700; font-size: 14px; letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--green-200);">Coming Up</div>
+    <h1 style="font-family: var(--font-display); font-weight: 800; font-size: var(--text-4xl); margin: 0; text-wrap: pretty;">2026 Fall Workshops</h1>
+    <p style="font-size: 17px; line-height: var(--leading-relaxed); color: var(--green-100); max-width: 560px; margin: 0;">Weekly STEM Workshops return this fall at three schools: Arlington, Lincoln, and Wood Elementary. We need volunteers and lead mentors at every session.</p>
+    <x-import component-from-global-scope="SouthBaySTEMAssociationDesignSystem_de2932.Button" variant="accent" href="./Volunteer.dc.html" hint-size="auto,44px">Sign Up to Volunteer</x-import>
+  </div>
+</section>
+
+<section style="padding: 64px 32px 96px; max-width: 980px; margin: 0 auto;">
+  <div style="text-align: center; margin-bottom: 12px;">
+    <h2 style="font-family: var(--font-display); font-weight: 800; font-size: var(--text-2xl); color: var(--color-text); margin: 0;">Workshop calendar</h2>
+    <p style="font-size: 15px; color: var(--color-text-muted); margin: 6px 0 0;">All sessions run 3:15–4:30pm.</p>
+  </div>
+  <div style="display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin-bottom: 32px;">
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--color-text-muted);"><span style="width: 12px; height: 12px; background: var(--color-brand); display: inline-block;"></span>Arlington</div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--color-text-muted);"><span style="width: 12px; height: 12px; background: var(--green-600); display: inline-block;"></span>Lincoln</div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--color-text-muted);"><span style="width: 12px; height: 12px; background: var(--color-accent); display: inline-block;"></span>Wood</div>
+  </div>
+
+  <div class="sbsa-reveal" style="background: var(--color-surface); box-shadow: var(--shadow-md);">
+    <div style="background: var(--color-brand-strong); color: #fff; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between;">
+      <button onClick="{{ prevMonth }}" style="background: transparent; border: none; color: #fff; font-size: 22px; line-height: 1; cursor: pointer; padding: 4px 12px; opacity: {{ prevOpacity }};">‹</button>
+      <div style="font-family: var(--font-display); font-weight: 800; font-size: 16px;">{{ monthName }}</div>
+      <button onClick="{{ nextMonth }}" style="background: transparent; border: none; color: #fff; font-size: 22px; line-height: 1; cursor: pointer; padding: 4px 12px; opacity: {{ nextOpacity }};">›</button>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(7, 1fr); text-align: center; font-size: 12px; font-weight: 700; color: var(--color-text-muted); padding: 10px 1px 6px;">
+      <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px; background: var(--color-border); padding: 0 1px 1px;">
+      <sc-for list="{{ cells }}" as="cell" hint-placeholder-count="35">
+        <sc-if value="{{ cell.blank }}" hint-placeholder-val="{{ false }}">
+          <div style="background: var(--color-bg-subtle); min-height: 92px;"></div>
+        </sc-if>
+        <sc-if value="{{ cell.filled }}" hint-placeholder-val="{{ true }}">
+          <div style="background: {{ cell.cellBg }}; min-height: 92px; padding: 6px;">
+            <div style="font-size: 12px; color: var(--color-text-muted);">{{ cell.day }}</div>
+            <div style="display: flex; flex-direction: column; gap: 1px; margin-top: 2px;">
+              <sc-for list="{{ cell.events }}" as="ev" hint-placeholder-count="0">
+                <div style="font-size: 10px; font-weight: 700; color: {{ ev.color }}; background: {{ ev.bg }}; padding: 1px 4px; display: inline-block;">{{ ev.name }}</div>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+      </sc-for>
+    </div>
+  </div>
+
+  <div style="text-align: center; margin-top: 48px;">
+    <a href="./Homepage.dc.html" style="font-weight: 600; color: var(--color-link); font-size: 15px;" style-hover="color: var(--color-link);">‹ Back to Home</a>
+  </div>
+</section>
+
+<footer style="background: var(--color-brand-strong); color: #fff; padding: 32px 32px 52px; font-family: var(--font-body); text-align: center;">
+  <div style="max-width: var(--container-max); margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 22px;">
+    <div style="font-family: var(--font-display); font-weight: 800; font-size: 22px; letter-spacing: var(--tracking-wide); text-transform: uppercase; color: #fff;">South Bay STEM Association</div>
+    <p style="font-size: 14px; color: var(--green-100); max-width: 420px; margin: 0;">A 501(c)(3) nonprofit bringing free, hands-on STEM education to students in the South Bay.</p>
+    <div style="display: flex; gap: 48px; flex-wrap: wrap; justify-content: center;">
+      <a href="./Programs.dc.html#stem-workshops" style="color: var(--green-200); font-size: 14px;">STEM Workshops</a>
+      <a href="./Programs.dc.html#zero-robotics" style="color: var(--green-200); font-size: 14px;">Zero Robotics</a>
+      <a href="./News.dc.html" style="color: var(--green-200); font-size: 14px;">News</a>
+      <a href="./Our-Team.dc.html" style="color: var(--green-200); font-size: 14px;">Our Team</a>
+      <a href="./Volunteer.dc.html" style="color: var(--green-200); font-size: 14px;">Volunteer</a>
+      <a href="./Donate.dc.html" style="color: var(--green-200); font-size: 14px;">Donate</a>
+      <a href="./About.dc.html" style="color: var(--green-200); font-size: 14px;">About</a>
+      <a href="./Contact.dc.html" style="color: var(--green-200); font-size: 14px;">Contact</a>
+    </div>
+    <div style="width: 100%; margin-top: 12px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.15); font-size: 13px; color: var(--green-200); display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+      <span>© 2026 South Bay STEM Association · info@southbaystem.org</span>
+      <span>·</span>
+      <a href="./Privacy-Policy.dc.html" style="color: var(--green-200);">Privacy Policy</a>
+      <span>·</span>
+      <a href="./Terms-of-Use.dc.html" style="color: var(--green-200);">Terms of Use</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { monthIndex: 0 };
+
+  months = [
+    { name: 'September 2026', startBlank: 2, days: 30, events: { 16: ['Arlington'], 22: ['Lincoln'], 30: ['Arlington'] } },
+    { name: 'October 2026', startBlank: 4, days: 31, events: { 6: ['Lincoln'], 13: ['Wood'], 14: ['Arlington'], 20: ['Lincoln'], 27: ['Lincoln', 'Wood'], 28: ['Arlington'] } },
+    { name: 'November 2026', startBlank: 0, days: 30, events: { 3: ['Lincoln'], 4: ['Arlington'], 17: ['Lincoln'], 18: ['Arlington'] } },
+    { name: 'December 2026', startBlank: 2, days: 31, events: { 1: ['Lincoln', 'Wood'], 2: ['Arlington'], 8: ['Wood'] } },
+  ];
+
+  prevMonth = () => this.setState(s => ({ monthIndex: Math.max(0, s.monthIndex - 1) }));
+  nextMonth = () => this.setState(s => ({ monthIndex: Math.min(this.months.length - 1, s.monthIndex + 1) }));
+
+  eventStyle(name) {
+    if (name === 'Arlington') return { bg: 'var(--color-brand)', color: '#fff' };
+    if (name === 'Lincoln') return { bg: 'var(--green-600)', color: '#fff' };
+    return { bg: 'var(--color-accent)', color: 'var(--color-brand-strong)' };
+  }
+
+  renderVals() {
+    const idx = this.state.monthIndex;
+    const m = this.months[idx];
+    const cells = [];
+    for (let i = 0; i < m.startBlank; i++) cells.push({ blank: true, filled: false, key: 'b' + i });
+    for (let d = 1; d <= m.days; d++) {
+      const names = m.events[d] || [];
+      const events = names.map(n => ({ name: n, ...this.eventStyle(n) }));
+      cells.push({ blank: false, filled: true, day: d, events, cellBg: events.length ? 'var(--color-bg-tint)' : 'var(--color-surface)', key: 'd' + d });
+    }
+    while (cells.length % 7 !== 0) cells.push({ blank: true, filled: false, key: 'b' + cells.length });
+    return {
+      monthName: m.name,
+      cells,
+      prevMonth: this.prevMonth,
+      nextMonth: this.nextMonth,
+      prevOpacity: idx === 0 ? 0.35 : 1,
+      nextOpacity: idx === this.months.length - 1 ? 0.35 : 1,
+    };
+  }
+}
+</script>
+</body>
+</html>

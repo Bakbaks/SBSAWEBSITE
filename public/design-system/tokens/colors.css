@@ -1,0 +1,65 @@
+:root{
+/* Brand blue scale — primary, from logo mark */
+--blue-900:#101A47;
+--blue-800:#16235C;
+--blue-700:#1B2B73;
+--blue-600:#203389;
+--blue-500:#233896;
+--blue-400:#2D48C1;
+--blue-300:#566ED8;
+--blue-200:#8A9BE4;
+--blue-100:#C6CEF2;
+--blue-50:#EBEEFA;
+
+/* Secondary mint-green scale — from logo mark */
+--green-900:#14432C;
+--green-800:#1A5839;
+--green-700:#206E47;
+--green-600:#268355;
+--green-500:#2A8F5D;
+--green-400:#36B878;
+--green-300:#5ED098;
+--green-200:#90DEB7;
+--green-100:#C9EFDC;
+--green-50:#ECF9F3;
+
+/* Neutrals — warm-ish gray, not cold blue-gray */
+--gray-900:#1B2420;
+--gray-800:#2C3832;
+--gray-700:#455049;
+--gray-600:#647169;
+--gray-500:#8B968E;
+--gray-400:#B4BEB6;
+--gray-300:#D6DED9;
+--gray-200:#E7ECE8;
+--gray-100:#F2F5F3;
+--gray-50:#FAFCFA;
+--white:#FFFFFF;
+
+/* Accent — warm sunshine yellow, for highlights/CTAs sparingly (curiosity/spark) */
+--accent-500:#F2B33D;
+--accent-600:#DB9A22;
+--accent-100:#FCEACB;
+
+/* Semantic */
+--color-bg:var(--white);
+--color-bg-subtle:var(--gray-50);
+--color-bg-tint:var(--blue-50);
+--color-surface:var(--white);
+--color-surface-sunken:var(--gray-100);
+--color-border:var(--gray-300);
+--color-border-strong:var(--gray-400);
+--color-text:var(--gray-900);
+--color-text-muted:var(--gray-600);
+--color-text-inverse:var(--white);
+--color-brand:var(--blue-700);
+--color-brand-strong:var(--blue-900);
+--color-brand-soft:var(--blue-400);
+--color-accent:var(--accent-500);
+--color-accent-strong:var(--accent-600);
+--color-link:var(--blue-600);
+--color-link-hover:var(--blue-900);
+--color-success:var(--green-600);
+--color-warning:var(--accent-600);
+--color-danger:#C24B3F;
+}
